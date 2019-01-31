@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}
+    <link href="/static/css/login.css" rel="stylesheet">
+{% endblock %}
+
+{% block main %}
+<form class="form-signin text-center" method="POST" style="background: #de6637;">
+    <a href="/">
+        <img class="mb-4" src="/static/images/logo_alba_iulia.png" alt="" width="100%" >
+    </a>
+    <h1 class="h3 mb-3 font-weight-normal">
+        Please sign in
+    </h1>
+    <label for="email" class="sr-only">
+        Email address
+    </label>
+    <input name="email" value="{{email}}" type="email" id="email" class="form-control" placeholder="Email address" required autofocus>
+    <label for="password" class="sr-only">
+        Password
+    </label>
+    <input name="password" type="password" id="password" class="form-control" placeholder="Password" required>
+    <div class="checkbox mb-3">
+        <label>
+            <input name="remember-me" type="checkbox" value="remember-me"> Remember me
+        </label>
+    </div>
+    <h4>{{message}}</h4>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+</form>
+{% endblock %}

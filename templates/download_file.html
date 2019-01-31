@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="card text-white bg-dark mb-3" style="max-width: 36rem; top: 100px; margin: 0 auto;">
+    <div class="card-header" align="right">
+        <!--a href="/login">Login</a>
+        <a href="/logout">Logout</a-->
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">File transfer - Primaria Alba Iulia</h5>
+        <hr>
+        <p>{{ message }}</p>
+        <hr>
+        <form method="POST">
+            <button  class="btn btn-md btn-primary" type="submit">Download file(s)</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script src="/static/js/upload_file.js"></script>
+{% endblock %}

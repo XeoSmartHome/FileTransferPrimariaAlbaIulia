@@ -1,0 +1,8 @@
+flask
+flask_login
+flask_admin
+flask_compress
+flask_sqlalchemy
+flask_mail
+flask_basicauth
+gevent

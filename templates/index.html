@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="card text-white bg-dark mb-3" style="max-width: 36rem; top: 100px; margin: 0 auto;">
+    {% include "menu.html"%}
+    <div class="card-body">
+        <h5 class="card-title">File transfer - Primaria Alba Iulia</h5>
+        <p class="card-text">Easy and fast file transfer</p>
+        <p>
+            <a href="/upload_file" class="btn btn-md btn-primary">Transfer file</a>
+        </p>
+    </div>
+</div>
+
+{% endblock %}
