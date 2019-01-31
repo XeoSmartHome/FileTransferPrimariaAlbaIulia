@@ -4,14 +4,12 @@ Clone repository:
 
 git clone https://github.com/XeoSmartHome/FileTransferPrimariaAlbaIulia
 
-Create 2 folders:
+Install requirments:
 
--one for temporary files store
-
--one for archives store
+pip install requirments.txt
 
 Edit config.py
 
-Run the app.py
+Run the app:
 
-(sudo) python3 app.py
+python3 app.py
