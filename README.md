@@ -8,7 +8,7 @@ Create 2 folders:
 
 -one for temporary files store
 
--one for store archives
+-one for archives store
 
 Edit config.py
 
